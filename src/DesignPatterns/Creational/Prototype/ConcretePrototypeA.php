@@ -9,11 +9,11 @@
 namespace DesignPatterns\Creational\Prototype;
 
 
-class PrototypeA extends Prototype
+class ConcretePrototypeA extends Prototype
 {
     public function __construct()
     {
-        $this->propertyB = 'PrototypeA->propertyB';
+        $this->propertyB = 'ConcretePrototypeA->propertyB';
     }
 
     public function __clone()
